@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="current-time" data-testid="currentTimeUTC" id="current-time">
+        Loading time...
+    </header>
+    <main>
+        <p class="main__text">Hello I'm</p>
+        <h1 data-testid="slackUserName" class="main__username">ChelseaOkih</h1>
+        <p class="main__text">HNG Intern [frontend developer]</p>
+        <a href="mailto:chelseaeloho@gmail.com">
+            <p class="main__text-email" data-testid="slackEmail">Email</p>
+        </a>
+            <img 
+            src="./images/chelsea.jpeg" 
+            alt="Profile-Image" 
+            data-testid="slackProfilePicture"
+            class="main__image">   
+    </main>
+    <section class="goal__section">
+        <div class="">
+            <h3 class="goals__header">Frontend Goals</h3>
+        </div>
+        <div class="goals__list">
+            <div class="goals__list1">
+                <h3 class="goals__list-header">First Year</h3>
+                <ul>
+                    <li>Master Core Technologies like React</li>
+                    <li>Learn Popular Frameworks</li>
+                    <li>Build a strong and professional Portfolio</li>
+                    <li>Improve my Css skills</li>
+                    <li>Learn Responsive design</li>
+                </ul>
+            </div>
+            <div class="goals__list2">
+                <h3 class="goals__list-header">Second Year</h3>
+                <ul>
+                    <li>Version Control with Git</li>
+                    <li>Enhance Javascript Skills</li>
+                    <li>Optimize performance</li>
+                    <li>Explore Backend Integration</li>
+                    <li>Stay Updated and Network</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <small>
+        <p class="footer_text"> &copy; Copyright Chelsea Okih 2024</p>
+        </small>
+        <div class="footer__image">
+            <a href="https://github.com/ChelseaOkih/HNG-stage-1" >
+                <span>
+                    
+                    <img 
+                    src="./images/gitlogo.png" 
+                    alt="git logo" 
+                    width="20px"
+                    height="20px"
+                    class="footer__image-logo"
+                    >
+                </span>
+            </a>
+            <a href="http://hng.tech/learn" data-testid="hngLink">
+                <small class="footer__image-text">HNG</small>
+                <span>
+                    <img 
+                    src="./images/hng.tech.jpg" 
+                    alt="git logo" 
+                    width="20px"
+                    height="20px"
+                    class="footer__image-logo"
+                    >
+                </span>
+            </a>
+            <a href="http://keyword.dog" data-testid="keywordLink">
+                <small class="footer__image-text">KEYWORD</small>
+                <span>
+                    <img 
+                    src="./images/keywordlogo.svg" 
+                    alt="git logo" 
+                    width="20px"
+                    height="20px"
+                    class="footer__image-logo"
+                    >
+                </span>
+            </a>
+            <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink" >
+                <small class="footer__image-text">SCRAPE</small>
+                <span>
+                    <img 
+                    src="./images/scrapelogo.png" 
+                    alt="git logo" 
+                    width="20px"
+                    height="20px"
+                    class="footer__image-logo"
+                    >
+                </span>
+            </a>
+  
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
