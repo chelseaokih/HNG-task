@@ -152,7 +152,7 @@ small{
 footer {
     display: flex;
     height: 4rem;
-    background-color: blue;
+    background-color: rgb(12, 45, 129);
     align-items: center;
     justify-content: space-around;
     gap: 2rem;
